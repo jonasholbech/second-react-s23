@@ -1,0 +1,13 @@
+.ValueGrid {
+}
+.ValueGrid .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.ValueCard {
+}
+.Peter {
+  border: 3px solid hotpink;
+  padding: 1rem;
+}
