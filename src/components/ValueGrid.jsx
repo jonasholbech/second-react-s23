@@ -23,10 +23,30 @@ export default function ValueGrid(props) {
           text="lorem ipsum"
           title="Good something"
         />
-        <ValueCard user={props.user} text="lorem ipsum" title="Conduct" />
-        <ValueCard user={props.user} text="lorem ipsum" title="a" />
-        <ValueCard user={props.user} text="lorem ipsum" title="b" />
-        <ValueCard user={props.user} text="lorem ipsum" title="c" />
+        <ValueCard
+          icon="alarm"
+          user={props.user}
+          text="lorem ipsum"
+          title="Conduct"
+        />
+        <ValueCard
+          icon="archive"
+          user={props.user}
+          text="lorem ipsum"
+          title="a"
+        />
+        <ValueCard
+          icon="badge"
+          user={props.user}
+          text="lorem ipsum"
+          title="b"
+        />
+        <ValueCard
+          icon="spelleingerror"
+          user={props.user}
+          text="lorem ipsum"
+          title="c"
+        />
       </div>
     </section>
   );

@@ -11,3 +11,23 @@
   border: 3px solid hotpink;
   padding: 1rem;
 }
+.big {
+  margin: auto;
+  width: 200px;
+  display: block;
+  font-size: 3rem;
+}
+nav {
+  font-size: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.stupidAnimation {
+  animation: 1s boom;
+}
+@keyframes boom {
+  to {
+    transform: scaleX(300%);
+  }
+}

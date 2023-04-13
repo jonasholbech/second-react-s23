@@ -1,14 +1,16 @@
 import Button from "./Button";
 import Peter from "./Peter";
-export default function ValueCard(props) {
-  const price = props.title + ",-";
+import Icon from "./Icon";
+export default function ValueCard({ title, children, icon, text, user }) {
+  const price = title + ",-";
   return (
     <article className="ValueCard">
-      {props.children}
+      {children}
+      <Icon icon={icon} />
       <h3>{price}</h3>
-      <p>{props.text}</p>
+      <p>{text}</p>
 
-      <Button user={props.user}>Hi Mom</Button>
+      <Button user={user}>Hi Mom</Button>
     </article>
   );
 }
